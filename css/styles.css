@@ -1,6 +1,9 @@
 li {
   list-style-type: none;
-  color: #e40007;
+  color: #571717;
+  font-weight: bold;
+  font-size: 22px;
+  text-shadow: 2px 2px 3px #fff;
 }
 
 @media screen and (min-width: 300px) {
@@ -13,4 +16,8 @@ li {
   .col-md-3 {
     background-color: purple;
   }
+}
+
+.container {
+  background-color: #0088ff
 }

@@ -1,23 +1,23 @@
-li {
-  list-style-type: none;
-  color: #571717;
-  font-weight: bold;
-  font-size: 22px;
-  text-shadow: 2px 2px 3px #fff;
+.col-xs-3, .col-xs-6 {
+  background-color: #9d9;
+  border: 1px solid #000;
+  height: 200px;
 }
 
-@media screen and (min-width: 300px) {
-  .col-md-3 {
-    background-color: blue;
-  }
+.col-lg-1 {
+  background-color: #6f9038;
+  border: 1px solid #000;
+  height: 200px;
 }
 
-@media screen and (min-width: 500px) {
-  .col-md-3 {
-    background-color: purple;
-  }
+.col-lg-9, .col-xs-2 {
+  background-color: #2d90e3;
+  border: 1px solid #000;
+  height: 200px;
 }
 
-.container {
-  background-color: #0088ff
+.col-xs-1 {
+  background-color: #000;
+  border: 1px solid #000;
+  height: 100px;
 }

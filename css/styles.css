@@ -1,16 +1,23 @@
-li {
-  list-style-type: none;
-  color: #e40007;
+.col-xs-3, .col-xs-6 {
+  background-color: #9d9;
+  border: 1px solid #000;
+  height: 200px;
 }
 
-@media screen and (min-width: 300px) {
-  .col-md-3 {
-    background-color: blue;
-  }
+.col-lg-1 {
+  background-color: #6f9038;
+  border: 1px solid #000;
+  height: 200px;
 }
 
-@media screen and (min-width: 500px) {
-  .col-md-3 {
-    background-color: purple;
-  }
+.col-lg-9, .col-xs-2 {
+  background-color: #2d90e3;
+  border: 1px solid #000;
+  height: 200px;
+}
+
+.col-xs-1 {
+  background-color: #000;
+  border: 1px solid #000;
+  height: 100px;
 }
